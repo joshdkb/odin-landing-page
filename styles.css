@@ -14,7 +14,7 @@ h4 {
 
 .nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -30,4 +30,13 @@ li > a {
     color: #e5e7eb;
     text-decoration: none;
     margin-left: 18px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    text-decoration: none;
+    padding: 10px;
 }
