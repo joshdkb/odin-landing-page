@@ -9,17 +9,20 @@ body {
     background: #1f2937;
 }
 
-.nav {
+.nav-content {
     display: flex;
-    justify-content: space-between;
+    max-width: 980px;
+    justify-content: center;
     align-items: center;
-    padding: 20px 250px;
+    padding: 30px;
+    margin: 0 auto;
 }
 
 .logo-text {
     font-size: 24px;
     color: #f9faf8;
     font-weight: 700;
+    margin-right: auto;
 }
 
 .nav-links {
@@ -27,24 +30,31 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
+    gap: 18px;
 }
 
 li > a {
     font-size: 18px;
     color: #e5e7eb;
     text-decoration: none;
-    margin-left: 18px;
 }
 
 li > a:hover {
     color: #3882f6
 }
 
-.hero-section {
+.hero-container {
+    max-width: 980px;
     display: flex;
-    padding: 20px 250px 50px;
+    margin: 0 auto;
     gap: 48px;
     align-items: center;
+    padding: 50px 30px;
+}
+
+.hero-left,
+.hero-right {
+    flex: 1;
 }
 
 .hero-image {
@@ -76,8 +86,8 @@ li > a:hover {
 
 .info-section {
     text-align: center;
-    padding: 50px 300px;
-    margin-bottom: 48px;
+    max-width: 980px;
+    margin: 50px auto;
 }
 
 .info-title {
@@ -90,6 +100,7 @@ li > a:hover {
 .info-layout {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .info-card {
@@ -105,16 +116,25 @@ li > a:hover {
 }
 
 .quote-section {
+        background: #e5e7eb;
+}
+
+.quote-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: #e5e7eb;
-    padding: 60px 350px 60px;
+    align-content: center;
+    padding: 0px 30px;
+    margin: 0 auto;
+    height: 300px;
+    max-width: 980px;
+    overflow: auto;
 }
 
 .quote-text {
     font-size: 36px;
     font-style: italic;
+    margin-bottom: 10px;
 }
 
 .quote-author {
@@ -126,18 +146,21 @@ li > a:hover {
 
 .CTA-section {
     display: flex;
-    align-items: center;
     justify-content: center;
-    height: 300px;
+    margin: 30px;
 }
 
 .CTA-content {
     display: flex;
-    gap: 48px;
-    padding: 50px 250px;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 720px;
+    padding: 50px;
+    margin: 50px 0;
     background: #3882f6;
     border-radius: 10px;
     font-size: 18px;
+    flex-wrap: wrap;
 }
 
 .CTA-header {
@@ -147,6 +170,7 @@ li > a:hover {
 
 .CTA-text {
     color: #e5e7eb;
+    margin-right: 50px;
 }
 
 .CTA-button {

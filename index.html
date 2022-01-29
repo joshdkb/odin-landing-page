@@ -11,25 +11,35 @@
     <title>Odin Landing Page</title>
 </head>
 <body>
-    <div class="nav dark-bg">
-        <div class="logo-text">Website logo</div>
-        <div>
-            <ul class="nav-links">
-                <li><a href="#">Header Link One</a></li>
-                <li><a href="#">Header Link Two</a></li>
-                <li><a href="#">Header Link Three</a></li>                
-            </ul>
+    <header class="nav">
+        <nav class="dark-bg">
+            <div class="nav-content">
+                <div class="logo-text">Website logo</div>
+                <div>
+                    <ul class="nav-links">
+                        <li><a href="#">Header Link One</a></li>
+                        <li><a href="#">Header Link Two</a></li>
+                        <li><a href="#">Header Link Three</a></li>                
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <section class="dark-bg">
+        <div class="hero-container">
+                <div class="hero-left">
+                    <div class="hero-header">This website is awesome</div>
+                    <div class="hero-text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</div>
+                    <button class="hero-button">Sign up</button>
+                </div>
+            <div class="hero-right">
+                <img src="imgs/astro.jpg" alt="" class="hero-image">
+            </div>
         </div>
-    </div>
-    <div class="hero-section dark-bg">
-        <div class="hero-content">
-            <div class="hero-header">This website is awesome</div>
-            <div class="hero-text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</div>
-            <button class="hero-button">Sign up</button>
-        </div>
-        <img src="imgs/astro.jpg" alt="" class="hero-image">
-    </div>
-    <div class="info-section">
+    </section>
+
+    <section class="info-section">
         <div class="info-title">Some random information.</div>
         <div class="info-layout">
             <div class="info-card">
@@ -49,20 +59,25 @@
                 <div class="info-tile-text"> this is some subtext under an illustration or image.</div>
             </div>
         </div>
-    </div>
-    <div class="quote-section">
-        <div class="quote-text">This is an inspiring quote, or testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</div>
-        <div class="quote-author">- Thor, God of Thunder</div>
-    </div>
-    <div class="CTA-section">
+    </section>
+
+    <section class="quote-section">
+        <div class="quote-content">
+            <div class="quote-text">This is an inspiring quote, or testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</div>
+            <div class="quote-author">- Thor, God of Thunder</div>
+        </div>
+    </section>
+
+    <section class="CTA-section">
         <div class="CTA-content">
             <div class="CTA-text">
-                <div class="CTA-header">Call to action! It's time!</div>
-                <div class="CTA-text">Sign up for our productby clicking that button right over there!</div>
+                <h4 class="CTA-header">Call to action! It's time!</h4>
+                <p class="CTA-text">Sign up for our productby clicking that button right over there!</p>
             </div> 
             <button class="CTA-button">Sign up</button>
         </div>
-    </div>
+    </section>
+
     <div class="footer dark-bg">
         <p>Copyright &copy; The Odin Project 2021</p>
     </div>
